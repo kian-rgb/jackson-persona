@@ -3,7 +3,7 @@
 **Client:** Landjourney — an agricultural lending platform for lenders and borrowers.
 **Scope:** Full user guide across 4 sections, 22+ pages.
 **Timeline:** March 2026, iterative sessions.
-**My role:** Content owner. Persona design, filter development, and applying the filter across the repo.
+**My role:** Owned the customer-facing language end to end — persona research, the messaging standard, and rolling it across every page.
 
 ---
 
@@ -94,16 +94,18 @@ If this project continued:
 1. **Coordinate with product on UI copy.** The docs are downstream of the app. Some app strings (e.g. "Dynamic Forms") force docs into awkward decisions.
 2. **Build a lint rule.** The word-swap table could run as a CI check. Any PR that adds "sidebar" to a doc gets flagged.
 3. **Test with a real Jackson.** The persona is a composite; the next validation step is putting the edited docs in front of actual ag-lending loan officers and measuring comprehension.
-4. **Extend the persona set.** Jackson covers lenders. A parallel persona for borrowers (probably a farmer named something like "Ellie") would cover the other side of the platform.
+4. **Extend the persona set on the user side.** Jackson covers lenders. A parallel persona for borrowers (probably a farmer named something like "Ellie") would cover the other half of the platform.
+5. **Build the buyer persona, not just the user persona.** Jackson doesn't sign the contract. A chief credit officer does, and they're reading for portfolio risk, compliance exposure, and examiner questions — a different vocabulary entirely. Same method, different reader, and it's the one that shapes sales and marketing copy rather than docs.
 
 ---
 
 ## What this project shows
 
-For a PM lens:
+The surface task was editing documentation. The actual work was go-to-market:
 
-- I can identify a systemic issue (jargon) inside what looks like a per-page editing task.
-- I can turn a fuzzy goal ("make it clearer") into a specific artifact (the swap table + test).
-- I can measure my own output honestly (see [`metrics.md`](metrics.md)).
-- I can name what I did *not* do, and why, without over-scoping.
-- I can hand the system to someone else without me in the room.
+- **I found the systemic issue hiding inside the per-page task.** Twenty pages of "make this clearer" was really one problem — the product described itself in its own vocabulary instead of the customer's — and one filter fixed all twenty.
+- **I turned voice of customer into an object.** Not a research deck. A swap table and a four-question gate that a contractor can use on their first day.
+- **I treated onboarding friction as a messaging problem.** Every unfamiliar word in the first hour is a reason to call support instead of self-serving, and that cost lands in adoption, not in the doc.
+- **I enforced one vocabulary across every surface.** The same word for the same thing on all twenty pages is what makes a product feel built for the person using it.
+- **I measured honestly.** Real counts from real commits (see [`metrics.md`](metrics.md)), and I've named what I deliberately did *not* do rather than inflating the scope.
+- **I built for handoff.** The filter runs without me in the room. That's the difference between writing well and building a system.
