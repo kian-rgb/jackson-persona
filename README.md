@@ -1,6 +1,6 @@
 # Jackson: A Persona-Driven Content Design System
 
-**Author:** Kian Sadeghi
+**Author:** Kian Thompson
 **Client / Case Study:** Landjourney (agricultural lending platform)
 **Time period:** March 2026
 
